@@ -1,0 +1,30 @@
+h2,footer{
+    color: rgb(170, 170, 170)
+}
+h2::after{
+    content: "";
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    background-color:rgb(170, 170, 170) ;
+    bottom: 0%;
+    left: 0;
+}
+footer p::before{
+    content: "";
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    background-color:rgb(170, 170, 170) ;
+   top: 0%;
+    left: 0;
+}
+button{
+    transition: all  1s;
+}
+button:hover{
+    box-shadow:6px 6px 8px -1px rgba(0,0,0,0.75);
+}
+.content{
+    background-image: linear-gradient(#EEE,#FFF);
+}
